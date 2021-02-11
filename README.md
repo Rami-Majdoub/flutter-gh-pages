@@ -41,3 +41,12 @@ To make the build using canvas kit, use the `useCanvasKit` property
         with:
           useCanvasKit: true
 ```
+
+To deploy to a different branch, use the `deployTo` property
+
+```yml
+      ...
+      - uses: erickzanardo/flutter-gh-pages@v2
+        with:
+          deployTo: example-branch
+```
